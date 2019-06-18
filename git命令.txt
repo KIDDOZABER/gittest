@@ -1,0 +1,10 @@
+git init                        ——初始化
+git add ./file_name             ——将文件添加到缓存区
+git commmit -m "..."            ——将缓存区文件添加到本地仓库
+git log                         ——查看提交详细日志
+git log --pretty=oneline        ——查看提交精简日志
+git reset --hard HEAD^          ——回到上一个版本
+git reset --hard HEAD^^         ——回到上两个版本
+git reset --hard HEAD~N         ——回到上N个版本
+git reflog                      ——查看操作信息
+git reset --hard commit_id      ——回到commit_id的版本
